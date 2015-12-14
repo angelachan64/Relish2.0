@@ -54,10 +54,10 @@ function clear() {
 
 var scoreUp = function(e) {
     score++;
-    console.log((score*10).toString());
-    $("#completion").html((score*10).toString()+"%");
-    $("#completion").css({'width':((score*10).toString()+"%")});
-    if((score*10) >= 100){
+    console.log((score/2).toString());
+    $("#completion").html((score/2).toString()+"%");
+    $("#completion").css({'width':((score/2).toString()+"%")});
+    if((score/2) >= 100){
         console.log("win!");
         clearInterval(mole);
         clearInterval(myVar);
