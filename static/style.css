@@ -9,8 +9,9 @@ html {
     height:auto !important;
     height:100%;
 }
-.game {
-    border:1px solid black;
+
+.bgimg {
+    background-image: url(../static/board.gif); 
 }
 
 table {
@@ -47,4 +48,8 @@ td {
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-weight: bold;
+}
+
+* {
+    cursor:url("/../static/mallet.png");
 }
