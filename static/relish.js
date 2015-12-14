@@ -21,6 +21,8 @@ var start = function(){
         $("#completion").css({
             'width':'0%'
         });
+        $("#table").css({'display':'table'});
+        $("#victory").css({'display':'none'})
     } count++;
 };
 
@@ -63,6 +65,8 @@ var scoreUp = function(e) {
         clearInterval(myVar);
         $("#completion").html("100%");
         $("#completion").css({'width':"100%"});
+        $("#victory").css({'display':'block'});
+        $("#table").css({'display':'none'});
     }
 };
 
