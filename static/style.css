@@ -9,6 +9,9 @@ html {
     height:auto !important;
     height:100%;
 }
+.game {
+    border:1px solid black;
+}
 
 table {
     border-collapse: collapse;
